@@ -4,6 +4,8 @@ Welcome to my Rust Daily Practice Repository! 🚀
 
 This repository is a collection of my daily Rust coding exercises and practice sessions. As I navigate through the world of Rust programming, I commit code regularly to track my learning journey, experiment with new concepts, and reinforce my understanding of the language.
 
+I started a challenge to learn rust in 25 days. I will also upload my progress report when i will complete the challenge. I am learning from the official book of rust, The Rust Programming Language.
+
 ## Structure
 
 - 📁 **src**: Contains the source code for daily practice exercises.
