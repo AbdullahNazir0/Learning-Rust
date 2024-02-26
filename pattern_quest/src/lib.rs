@@ -14,7 +14,12 @@ pub struct Config {
 impl Config {
     pub fn build(args: &[String]) -> Result<Config, &'static str> {
         if args.len() < 3 { 
-            return Err("Invalid Number Of Arguments.");
+            if args.len() == 2 && args[1] == "--help" {
+                help_page();
+                std::process::exit(0);
+            } else {
+                return Err("Invalid Number Of Arguments.");
+            }
         }
 
         let ignore_case = env::var("IGNORE_CASE").is_ok();
@@ -29,6 +34,24 @@ impl Config {
 
         Ok(config)
     }
+}
+
+fn help_page() {
+    let program_name = "Pattern Quest";
+    
+    println!("Usage: {} [OPTIONS] PATTERN FILE", program_name);
+    println!("\nOptions:");
+    println!("  --invert-search      Invert the sense of matching");
+    println!("  --ignore-case        Ignore case distinctions in patterns and data");
+    println!("  --help               Display this help message");
+
+    println!("\nEnvironment Variables:");
+    println!("  GREP_INVERT_SEARCH   Set to '1' to invert the search");
+    println!("  GREP_IGNORE_CASE     Set to '1' to ignore case");
+
+    println!("\nExamples:");
+    println!("  {} --invert-search pattern file.txt", program_name);
+    println!("  GREP_IGNORE_CASE=1 {} pattern file.txt", program_name);
 }
 
 // Struct with fields, line_content and line_number to store search results.
