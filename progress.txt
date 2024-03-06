@@ -1,0 +1,85 @@
+Goal: 	Complete Rust Documentation (Rust with Example) in 30 days;
+	Complete Rust Documentation (The Rust Programming Language) in 25 days;
+
+>------------------------------------------------------------------<
+
+This file will keep track of my progress for each day.
+
+>------------------------------------------------------------------<
+
+Day 0: February 13, 2024
+	Setted Rust Environment (Compiler) and printed Hello World.
+
+Day 1: February 14, 2024 
+	Completed Rust First Chapter. (Hello World)
+	Practiced Display formatter with Date, Clock and Quadratic Equation Tasks.
+
+Day 2: February 15, 2024
+	Completed Rust Second Chapter. (Primitives)
+	
+Day 3: February 16, 2024
+	Revised Learned Concepts. (Tuples, Arrays, Slices, Structs, Display, Debug, etc)
+	Practiced Tuples, Arrays and Slices with Matrix [2x2]. (struct Matrix([[f64; 2]; 2]))
+	
+Day 4: February 17, 2024
+	Completed Rust Third Chapter. (Custom Types)
+	Practiced Structs, Enums and Constants with Task Creator, Calculator and Library Tasks.	
+	
+Day 5: February 18, 2024
+	Changed the learning curve from studying from Rust With Examples to The Rust Programming Language.
+	Completed Rust First, Third and Fourth Chapter from Rust Official Book. (Getting Started, Common Programming Concepts and Understanding Ownership)
+	Practiced Ownership Concepts with String Tasks.
+	Completed Rust Fifth and Sixth Chapter from The Rust Programming Language. (Using structs to structure related data and Enums and Patter matchings)
+	Started Resturant Order and Billing Management Project in Rust.
+		-> Defined structs for Item and Order, write definition for functions like login_page(), home_page(), clear_console() and declared functions like take_order(), show_total_bills(), search_bill(), delete_bill().
+		-> Implemented Display for Order. (to print reciept)
+		-> Tested the code for different test cases.
+	
+Day 6: February 19, 2024
+	Completed Rust Seventh Chapter from The Rust Programming Language. (Managing Growing Projects with Packages, Crates and Modules)
+	Modified the Resturant Order and Billing Management Project with Modules and Crates.
+	
+February 19, 2024 - February 21, 2024	--->   Mandi Tour
+
+Day 7: February 22, 2024
+	Corrected the project files hierarchy. (According to new rust style)
+	Completed Rust Eigth Chapter from The Rust Programming Language. (Common Collections [Vectors, Strings, HashMaps])
+	Practiced Vectors, Strings, Hashmaps with individual and combined tasks.
+	
+Day 8: February 23, 2024
+	Completed Rust Ninth Chapter from The Rust Programming Language. (Error Handling)
+	Practiced Error Handling with 10 Tasks.
+	Refactored the Resturant Order and Bill Management Project with Error Handling.
+	Completed Rust Tenth Chapter from The Rust Programming Language[first 2/3]. (Generic Types and Traits)
+	
+Day 9: February 24, 2024
+	Completed Rust Tenth Chapter from The Rust Programming Language[last 1/3]. (Lifetimes)
+	Practiced LifeTimes with Tasks.
+	Completed Rust Eleventh Chapter from The Rust Programming Language. (Writing Automated Tests)
+	Practiced Unit and Integration Tests with Writing Tests.
+	Completed Rust Twelwth Chapter from The Rust Programming Language. (An I/O Project: Building a Command Line Program)
+	
+Day 10: February 25, 2024
+	Created Pattern Quest Project. (grep clone)
+	Re-read Rust Twelth Chapter and started creating project from scratch.
+	Complete the Project.
+	Make a list of features to add in the project in future and refactor to boost performance in future[replace string(clone) with &str].
+	Refactored the project to boost the performance.
+	Implemented the line numbers, inverted search and help/usage information for the project.
+
+Day 11: February 26, 2024
+	Completed Rust Thirteenth Chapter from The Rust Programming Language. (Functional Language Features: Closures and Iterators)
+	Practiced Iterators and Closures with 6 tasks.
+	
+Day 12: February 27, 2024
+	Completed Rust Fourteenth Chapter from The Rust Programming Language. (More about cargo and crates.io)
+	Completed Rust Fifteenth Chapter from The Rust Programming Language. (Smart Pointers)
+	
+Day 13: Februrary 28, 2024
+	Revised Rust Previous Concepts by Creating a Project. (Console based three games)
+	
+February 29, 2024 - March 03, 2024 ---> Mandi Tour
+
+Day 14: March 03, 2024
+	Watched Videos on Smart Pointers.
+	Practiced Smart Pointers with Tasks.
